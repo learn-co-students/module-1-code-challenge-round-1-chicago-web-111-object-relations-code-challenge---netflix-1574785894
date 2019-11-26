@@ -12,4 +12,11 @@ class Movie
     @@all
   end
 
+  def movie
+    self.review.all 
+  end
+
+
+
+
 end
