@@ -12,4 +12,11 @@ class Movie
     @@all
   end
 
+  def movie_reviews
+    Review.all.self
+  end
+
+  def movie_reviewers
+    Viewer.all.self
+  end
 end
