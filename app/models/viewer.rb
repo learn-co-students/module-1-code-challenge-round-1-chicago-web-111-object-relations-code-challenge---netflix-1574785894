@@ -12,4 +12,14 @@ class Viewer
     @@all
   end
   
+  def movie 
+    Movie.self.all 
+  end
+  
+
+    
+  
+
+
+
 end
