@@ -11,6 +11,12 @@ end
 # so they will be available to test and play around with in your console
 
 
+john = Viewer.new("John")
+saddles = Movie.new("Blazing Saddles")
+jacob = Viewer.new("Jacob")
+zombie = Movie.new("Zombieland")
+review1 = Review.new("Zach", "Terminator", 5)
+review2 = Review.new("John", "Zombieland", 4)
 
 
 
